@@ -1,0 +1,130 @@
+/* body */
+body{
+    font-family: cursive;
+}
+/* start header */
+header{
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    /* height: 600px; */
+    height: auto;
+    padding: 3rem 0;
+}
+nav{
+    width: 60%;
+    margin:auto ;
+}
+.nav-link{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+nav img{
+    width: 130px;
+    height: 80px;
+}
+.box-header{
+background-color: #57a08a;
+/* height: 320px; */
+border-radius: 30px;
+margin-left:5% ;
+margin-top: 5%;
+transition: all 1s linear;
+max-width: 39%;
+height: auto;
+padding: 1rem 2rem;
+
+}
+.box-header:hover{
+
+    background-color: aquamarine;
+}
+
+
+.box-header h2{
+    padding-top: 10%;
+    font-family: cursive;
+    color: #fff;
+    font-weight: 400px;
+    
+    line-height: 1.7;
+    
+}
+
+
+span{
+    display: block;
+    margin-bottom: 6px;
+}
+button{
+    color: #fff;
+}
+/* end header */
+
+/* start div clinic */
+.Clinc{
+    /* height:400px; */
+    height: auto;
+    padding: 3rem;
+}
+hr{
+    margin: 0 auto;
+   border-width: 8px;
+   width: 40%;
+ margin-bottom: 5%;
+   
+}
+/* end div clinic */
+
+/* start div touch */
+.touch{
+    background-image: url(../img/Path\ 62.png),url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+   
+    height: auto;
+    padding: 5rem 0 7rem 0 ;
+}
+.rounded{
+    border-radius: 20px!important;
+    /* height: 100% !important; */
+}
+.h4{
+    font-size: 15px;
+
+}
+.p1{
+line-height: 1.5;
+}
+
+/* end div touch */
+
+/* startdiv doctor */
+.doctor{
+    margin-bottom: 70px!important;
+    
+}
+/* end div doctor */
+
+/* start div contact*/
+.contact{
+    margin-top: 5% !important;
+    height: auto;
+    padding: 2rem 0;
+    /* height: 400px; */
+    background-color: #0F7A64;
+    border-top-left-radius:10rem;
+    border-top-right-radius:10rem;
+    padding: 3rem;
+}
+ul{
+    list-style: none;
+}
+
+ul li a{
+    color:white;
+    line-height:2.5;
+    text-decoration: none;
+    
+    
+}
+/* end div contact*/
